@@ -1,0 +1,24 @@
+This repository contains vagrant related files needed for setting up base FlexSwitch Development virtual box
+
+Instructions on how to setup Vagrant FlexSwitch resources:
+
+- Make Directory Vagrant (mkdir Vagrant)
+- Change Working Directory to Vagrant Directory (cd Vagrant)
+- Clone this repository using git clone https://github.com/OpenSnaproute/vagrantFlexSwitchDev.git
+- Get ubuntu/trusty64 vagrant box by following the steps mentioned on https://atlas.hashicorp.com/ubuntu/boxes/trusty64
+- Confirm that you have ubuntu/trusty64 box on your system by executing "vagrant box list" which should display
+  "ubuntu/trusty64"
+- Change Working Directory to cloned directory (cd vagrantFlexSwitchDev)
+- Follow below steps to bring up Vagrant Box for development:
+        1) vagrant up
+        2) vagrant ssh
+                *if asked for password type in: vagrant*
+        3) cd git
+        4) Clone OpenSnaproute Repository using git clone https://github.com/OpenSnaproute/reltools.git
+        5) cd reltools
+        6) fab setupDevEnv
+
+Note:
+ - The above mentioned steps assumes that vagrant is already installed by the end user, with VirtualBox as the provider
+ - Ubuntu 14.04 is used as base distro for the vagrant developement
+ - go 1.5.3 is used
