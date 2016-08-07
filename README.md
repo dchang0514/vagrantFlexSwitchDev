@@ -12,6 +12,7 @@ Instructions on how to setup Vagrant FlexSwitch resources:
 - Change Working Directory to cloned directory (cd vagrantFlexSwitchDev)
 
 Instruction on how to bring up Vagrant Box for development:
+
 1. vagrant up
 2. vagrant ssh
         *if asked for password type in: vagrant*
