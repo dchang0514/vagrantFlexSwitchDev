@@ -10,14 +10,15 @@ Instructions on how to setup Vagrant FlexSwitch resources:
 - Confirm that you have ubuntu/trusty64 box on your system by executing "vagrant box list" which should display
   "ubuntu/trusty64"
 - Change Working Directory to cloned directory (cd vagrantFlexSwitchDev)
-- Follow below steps to bring up Vagrant Box for development:
-        1. vagrant up
-        2. vagrant ssh
-                *if asked for password type in: vagrant*
-        3. cd git
-        4. Clone OpenSnaproute Repository using git clone https://github.com/OpenSnaproute/reltools.git
-        5. cd reltools
-        6. fab setupDevEnv
+
+Instruction on how to bring up Vagrant Box for development:
+1. vagrant up
+2. vagrant ssh
+        *if asked for password type in: vagrant*
+3. cd git
+4. Clone OpenSnaproute Repository using git clone https://github.com/OpenSnaproute/reltools.git
+5. cd reltools
+6. fab setupDevEnv
 
 Note:
  - The above mentioned steps assumes that vagrant is already installed by the end user, with VirtualBox as the provider
