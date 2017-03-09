@@ -1,5 +1,5 @@
 # vagrantFlexSwitchDev
-This repository contains vagrant related files needed for setting up base FlexSwitch Development virtual box
+This repository contains vagrant related files needed for setting up base FlexSwitch Development virtual box. THIS SHOULD BE ONLY USED FOR DEVELOPMENT. IF YOU WANT TO RUN FLEXSWICH PLEASE USE DOCKER CONTAINER
 
 Instructions on how to setup Vagrant FlexSwitch resources:
 
